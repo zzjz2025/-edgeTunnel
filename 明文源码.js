@@ -1,21 +1,18 @@
 import { connect } from "cloudflare:sockets";
 
 // 配置区块
-let 订阅路径 = "sub";
-let 我的UUID = "550e8400-e29b-41d4-a716-446655440000";
+let 订阅路径 = "zzjz";
+let 我的UUID = "250de28e-fab3-4cf3-8880-245ce1e04991";
 let 默认节点名称 = "节点";
 
 let 优选TXT = [
-  "https://raw.githubusercontent.com/ImLTHQ/edge-tunnel/main/SpeedTest/HKG.txt",
-  "https://raw.githubusercontent.com/ImLTHQ/edge-tunnel/main/SpeedTest/KHH.txt",
-  "https://raw.githubusercontent.com/ImLTHQ/edge-tunnel/main/SpeedTest/SIN.txt",
-  "https://raw.githubusercontent.com/ImLTHQ/edge-tunnel/main/SpeedTest/NRT.txt",
-  "https://raw.githubusercontent.com/ImLTHQ/edge-tunnel/main/SpeedTest/SEA.txt",
-  "https://raw.githubusercontent.com/ImLTHQ/edge-tunnel/main/SpeedTest/LHR.txt",
+  "https://raw.githubusercontent.com/zzjz2025/ip/refs/heads/main/IPgk1.txt",
+  "https://raw.githubusercontent.com/zzjz2025/ip/refs/heads/main/amip1.txt",
+  "https://raw.githubusercontent.com/zzjz2025/ip/refs/heads/main/amip2.txt",
 ];
 let 优选列表 = [];
 
-let 反代IP = "ts.hpc.tw";
+let 反代IP = "212.34.142.238";
 
 let 启用SOCKS5全局反代 = false;
 let SOCKS5账号 = "";
